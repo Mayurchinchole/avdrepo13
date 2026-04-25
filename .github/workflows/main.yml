@@ -14,9 +14,15 @@ jobs:
       - name: Run wfh
         run: python wfh.py
 
-
+        
   job3:
-    needs: job1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run wfh3
+        run: python wfh2.py
+
+  job2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
