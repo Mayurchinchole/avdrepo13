@@ -1,1 +1,0 @@
-print("mayur c 10")
