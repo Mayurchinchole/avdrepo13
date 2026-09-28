@@ -1,0 +1,15 @@
+{
+	"name": "zendubamb",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e125285b-af4e-4af6-bdc8-7360bd3df1d9",
+		"tenantId": "cce8d037-8bf6-4f55-b441-281eb0b307cc"
+	}
+}
